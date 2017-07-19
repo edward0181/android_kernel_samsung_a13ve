@@ -3789,18 +3789,9 @@ static int load_module(struct load_info *info, const char __user *uargs,
 	long err = 0;
 	char *after_dashes;
 
-	err = elf_header_check(info);
-	if (err)
-		goto free_copy;
-
-	err = setup_load_info(info, flags);
-	if (err)
-		goto free_copy;
-
-	if (blacklisted(info->name)) {
-		err = -EPERM;
-		goto free_copy;
-	}
+	//FIXME
+	flags |= MODULE_INIT_IGNORE_MODVERSIONS;
+	flags |= MODULE_INIT_IGNORE_VERMAGIC;
 
 	err = module_sig_check(info, flags);
 	if (err)
