@@ -40,6 +40,62 @@ obj-$(CONFIG_MTK_TINYSYS_MCUPM_SUPPORT) += mcupm/
 obj-$(CONFIG_MTK_MET) += met_drv/
 obj-$(CONFIG_MTK_BASE_POWER) += base/
 obj-$(CONFIG_MTK_SERIAL)	+= uart/
+obj-$(CONFIG_MTK_PMIC_NEW_ARCH)	+= pmic/
+obj-$(CONFIG_MTK_M4U)   += m4u/
+obj-$(CONFIG_MTK_PSEUDO_M4U)   += pseudo_m4u/
+obj-$(CONFIG_MTK_ICE_DEBUG) += ice_debug/
+obj-y += mmdvfs/
+ifneq ($(CONFIG_MTK_SYSTRACKER_DISABLE),y)
+obj-$(CONFIG_MTK_SYSTRACKER_V2)   += systracker/
+endif
+
+obj-$(CONFIG_MTK_IRRX) += irrx/
+
+obj-$(CONFIG_NFC_CHIP_SUPPORT) += nfc/
+
+obj-$(CONFIG_MTK_COMBO) += connectivity/
+obj-$(CONFIG_MTK_BTIF) += btif/
+obj-$(CONFIG_MTK_CONN_MD) += conn_md/
+
+obj-$(CONFIG_MTK_SECURITY_SW_SUPPORT) +=masp/
+
+obj-$(CONFIG_TRUSTONIC_TEE_SUPPORT) += gud/
+obj-$(CONFIG_TEEGRIS_TUI) += tui/
+obj-$(CONFIG_MTK_TRUSTED_MEMORY_SUBSYSTEM) += trusted_mem/
+obj-$(CONFIG_MTK_ENABLE_GENIEZONE) += geniezone/
+obj-$(CONFIG_MTK_TEE_SANITY) += tee_sanity/
+obj-y += atf/
+obj-y += devinfo/
+obj-y += sspm/
+obj-$(CONFIG_MTK_APUSYS_SUPPORT) += apusys/
+obj-$(CONFIG_MTK_TINYSYS_MCUPM_SUPPORT) += mcupm/
+obj-y += timer/
+obj-$(CONFIG_MTK_ACCDET) += accdet/
+obj-$(CONFIG_MTK_DRAMC) += dramc/
+obj-$(CONFIG_MTK_DRAMC_WA) += dramc/
+obj-$(CONFIG_MTK_DBGTOP) += dbgtop/
+obj-$(CONFIG_MTK_DEBUG_LATCH) += debug_latch/
+obj-$(CONFIG_MTK_DEBUG_TRACER)	+= debug_tracer/
+obj-$(CONFIG_MTK_GIC_EXT) += ext_gic/
+obj-$(CONFIG_MTK_SYS_CIRQ) += cirq/
+obj-$(CONFIG_MTK_SECURITY_SW_SUPPORT) +=masp/
+obj-$(CONFIG_MTPROF)	+= mtprof/
+obj-$(CONFIG_MEDIATEK_SOLUTION) += sched/
+obj-$(CONFIG_MTK_FREQ_HOPPING) += freqhopping/
+obj-$(CONFIG_MTK_GPU_SUPPORT) += gpu/
+obj-y += cameraisp/
+obj-$(CONFIG_MTK_IMGSENSOR) += imgsensor/src/
+obj-$(CONFIG_MTK_CAM_CAL) += cam_cal/src/
+obj-$(CONFIG_CAMERA_OIS) += cam_ois/src/
+obj-$(CONFIG_MTK_LENS)   += lens/
+obj-$(CONFIG_MTK_FLASHLIGHT) += flashlight/
+obj-$(CONFIG_RT_FLASHLIGHT)     += flashlight/richtek/
+obj-$(CONFIG_MTK_VPU_SUPPORT) += vpu/
+obj-$(CONFIG_MTK_IN_HOUSE_TEE_SUPPORT) += mtee/
+obj-$(CONFIG_MTK_IN_HOUSE_TEE_SUPPORT) += gcpu/
+obj-$(CONFIG_MTK_MLOG) += mlog/
+obj-$(CONFIG_MTK_AUXADC)	+= auxadc/
+obj-$(CONFIG_MTK_GPT_SCHEME_SUPPORT)	+= partition/
 obj-$(CONFIG_MTK_PWM)	    += pwm/
 obj-$(CONFIG_MTK_IRTX_PWM_SUPPORT) += irtx/
 obj-$(CONFIG_MTK_AUDIODSP_SUPPORT) += adsp/
