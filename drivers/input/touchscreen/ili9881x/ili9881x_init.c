@@ -28,11 +28,11 @@ void ili_tp_reset(void)
 
 	/* Need accurate power sequence, do not change it to msleep */
 	gpio_direction_output(ilits->tp_rst, 1);
-	usleep_range(1 * 1000, 1 * 1000);
+	mdelay(1);
 	gpio_set_value(ilits->tp_rst, 0);
-	usleep_range(5 * 1000, 5 * 1000);
+	mdelay(5);
 	gpio_set_value(ilits->tp_rst, 1);
-	msleep(ilits->rst_edge_delay);
+	mdelay;
 }
 
 static void touch_set_input_prop_proximity(struct input_dev *dev)
@@ -165,7 +165,7 @@ void ili_plat_regulator_power_on(bool status)
 		}
 	}
 	atomic_set(&ilits->ice_stat, DISABLE);
-	usleep_range(5 * 1000, 5 * 1000);
+	mdelay(5);
 }
 
 static void ilitek_plat_regulator_power_init(void)
@@ -254,7 +254,7 @@ out:
 	gpio_direction_output(ilits->tp_rst, 1);
 
 	gpio_set_value(ilits->tp_rst, 1);
-	msleep(ilits->rst_edge_delay);
+	mdelay(ilits->rst_edge_delay);
 
 	val = gpio_get_value(ilits->tp_rst);
 	val2 = gpio_get_value(ilits->tp_int);
@@ -316,7 +316,7 @@ out:
 void ili_irq_wake_disable(void)
 {
 	if (atomic_read(&ilits->irq_wake_stat) == DISABLE) {
-		input_info(true, ilits->dev, "%s already disabled\n", __func__);
+		input_info(true, ilits->dev, "%s already diabled\n", __func__);
 		return;
 	}
 
