@@ -1,0 +1,1 @@
+cmd_sound/soc/mediatek/built-in.a :=  rm -f sound/soc/mediatek/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD sound/soc/mediatek/built-in.a sound/soc/mediatek/common/built-in.a sound/soc/mediatek/mt6768/built-in.a

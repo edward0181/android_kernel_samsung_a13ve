@@ -1,0 +1,1 @@
+cmd_lib/reed_solomon/built-in.a :=  rm -f lib/reed_solomon/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD lib/reed_solomon/built-in.a lib/reed_solomon/reed_solomon.o

@@ -1,0 +1,1 @@
+cmd_drivers/battery/fuelgauge/sm5714_fuelgauge/built-in.a :=  rm -f drivers/battery/fuelgauge/sm5714_fuelgauge/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/battery/fuelgauge/sm5714_fuelgauge/built-in.a drivers/battery/fuelgauge/sm5714_fuelgauge/sm5714_fuelgauge.o

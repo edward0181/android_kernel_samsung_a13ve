@@ -1,0 +1,1 @@
+cmd_net/netlink/built-in.a :=  rm -f net/netlink/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD net/netlink/built-in.a net/netlink/af_netlink.o net/netlink/genetlink.o

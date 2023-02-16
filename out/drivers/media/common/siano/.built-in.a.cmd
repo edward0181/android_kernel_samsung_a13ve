@@ -1,0 +1,1 @@
+cmd_drivers/media/common/siano/built-in.a :=  rm -f drivers/media/common/siano/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/media/common/siano/built-in.a 

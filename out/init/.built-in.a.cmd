@@ -1,0 +1,1 @@
+cmd_init/built-in.a :=  rm -f init/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD init/built-in.a init/main.o init/version.o init/do_mounts.o init/do_mounts_rd.o init/do_mounts_initrd.o init/initramfs.o init/calibrate.o init/init_task.o

@@ -1,0 +1,1 @@
+cmd_drivers/leds/built-in.a :=  rm -f drivers/leds/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/leds/built-in.a drivers/leds/led-core.o drivers/leds/led-class.o drivers/leds/led-triggers.o drivers/leds/leds-sm5714-fled.o drivers/leds/trigger/built-in.a

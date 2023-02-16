@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/built-in.a :=  rm -f drivers/i2c/busses/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/i2c/busses/built-in.a drivers/i2c/busses/i2c-gpio.o drivers/i2c/busses/i2c-mtk.o drivers/i2c/busses/i2c-mtk_debug.o

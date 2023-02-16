@@ -1,0 +1,30 @@
+!<thin>
+//                                              272       `
+chips/mt6631/pub/mt6631_fm_rds.o/
+chips/mt6631/pub/mt6631_fm_lib.o/
+core/fm_module.o/
+core/fm_main.o/
+core/fm_config.o/
+core/fm_rds_parser.o/
+core/fm_patch.o/
+core/fm_utils.o/
+core/fm_link.o/
+core/fm_eint.o/
+core/fm_cmd.o/
+core/fm_reg_utils.o/
+plat/legacy_wmt.o/
+dummy.o/
+/0              0           0     0     644     9952      `
+/34             0           0     0     644     79000     `
+/68             0           0     0     644     64184     `
+/86             0           0     0     644     108128    `
+/102            0           0     0     644     17840     `
+/120            0           0     0     644     41272     `
+/142            0           0     0     644     4352      `
+/159            0           0     0     644     26272     `
+/176            0           0     0     644     22680     `
+/192            0           0     0     644     1560      `
+/208            0           0     0     644     24920     `
+/223            0           0     0     644     8104      `
+/244            0           0     0     644     14480     `
+/263            0           0     0     644     1000      `

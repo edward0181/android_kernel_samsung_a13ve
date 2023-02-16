@@ -1,0 +1,1 @@
+cmd_drivers/muic/common/built-in.a :=  rm -f drivers/muic/common/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/muic/common/built-in.a drivers/muic/common/muic-core.o drivers/muic/common/muic_notifier.o drivers/muic/common/muic_param.o

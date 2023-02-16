@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/mediatek/built-in.a :=  rm -f drivers/input/keyboard/mediatek/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/input/keyboard/mediatek/built-in.a drivers/input/keyboard/mediatek/kpd.o drivers/input/keyboard/mediatek/mt6768/built-in.a

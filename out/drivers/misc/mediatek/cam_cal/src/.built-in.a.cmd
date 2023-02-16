@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/cam_cal/src/built-in.a :=  rm -f drivers/misc/mediatek/cam_cal/src/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/misc/mediatek/cam_cal/src/built-in.a drivers/misc/mediatek/cam_cal/src/mt6768/built-in.a

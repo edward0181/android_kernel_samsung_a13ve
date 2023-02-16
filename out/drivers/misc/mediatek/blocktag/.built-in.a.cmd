@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/blocktag/built-in.a :=  rm -f drivers/misc/mediatek/blocktag/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/misc/mediatek/blocktag/built-in.a drivers/misc/mediatek/blocktag/blocktag-core.o drivers/misc/mediatek/blocktag/blocktag-index.o

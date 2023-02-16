@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/freqhopping/mt6768/built-in.a :=  rm -f drivers/misc/mediatek/freqhopping/mt6768/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/misc/mediatek/freqhopping/mt6768/built-in.a drivers/misc/mediatek/freqhopping/mt6768/mtk_freqhopping_sspm.o

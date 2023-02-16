@@ -1,0 +1,17 @@
+!<thin>
+//                                              144       `
+smcdsd_panel_init.o/
+smcdsd_panel.o/
+smcdsd_board.o/
+smcdsd_notify.o/
+smcdsd_abd.o/
+panels/a13ve_nt36672c_csot.o/
+panels/a13ve_hx83112f_boe.o/
+
+/0              0           0     0     644     21096     `
+/21             0           0     0     644     16216     `
+/37             0           0     0     644     61872     `
+/53             0           0     0     644     13536     `
+/70             0           0     0     644     47032     `
+/84             0           0     0     644     71648     `
+/114            0           0     0     644     45072     `

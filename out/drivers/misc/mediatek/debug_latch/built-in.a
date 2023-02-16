@@ -1,0 +1,11 @@
+!<thin>
+//                                              114       `
+plat_dbg_info/plat_dbg_info.o/
+plat_dbg_info/plat_sram_flag.o/
+lastbus/lastbus.o/
+lastbus/mt6768/plat_lastbus.o/
+
+/0              0           0     0     644     8384      `
+/31             0           0     0     644     10488     `
+/63             0           0     0     644     8520      `
+/82             0           0     0     644     13336     `

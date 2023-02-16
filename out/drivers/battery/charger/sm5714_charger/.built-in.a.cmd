@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/sm5714_charger/built-in.a :=  rm -f drivers/battery/charger/sm5714_charger/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/battery/charger/sm5714_charger/built-in.a drivers/battery/charger/sm5714_charger/sm5714_charger.o drivers/battery/charger/sm5714_charger/sm5714_charger_oper.o

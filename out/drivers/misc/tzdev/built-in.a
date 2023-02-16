@@ -1,0 +1,55 @@
+!<thin>
+//                                              428       `
+core/cdev.o/
+core/cred.o/
+core/event.o/
+core/iwio.o/
+core/iwservice.o/
+core/iwsock.o/
+core/kthread_pool.o/
+core/log.o/
+core/mem.o/
+core/notifier.o/
+core/ree_time.o/
+core/sysdep.o/
+core/tzdev.o/
+core/uiwsock.o/
+core/umem.o/
+core/iwlog.o/
+core/platform.o/
+lib/circ_buf.o/
+lib/circ_buf_packet.o/
+extensions/cpufreq_trans.o/
+extensions/irs.o/
+teec/context.o/
+teec/misc.o/
+teec/session.o/
+teec/shared_memory.o/
+debug/iw_boot_log.o/
+
+/0              0           0     0     644     2272      `
+/13             0           0     0     644     6848      `
+/26             0           0     0     644     3672      `
+/40             0           0     0     644     11016     `
+/53             0           0     0     644     2568      `
+/71             0           0     0     644     39256     `
+/86             0           0     0     644     16976     `
+/107            0           0     0     644     4408      `
+/119            0           0     0     644     12856     `
+/131            0           0     0     644     4280      `
+/148            0           0     0     644     4216      `
+/165            0           0     0     644     2256      `
+/180            0           0     0     644     16688     `
+/194            0           0     0     644     24336     `
+/210            0           0     0     644     9976      `
+/223            0           0     0     644     11040     `
+/237            0           0     0     644     4744      `
+/254            0           0     0     644     5032      `
+/270            0           0     0     644     4400      `
+/293            0           0     0     644     3120      `
+/321            0           0     0     644     7160      `
+/339            0           0     0     644     13048     `
+/355            0           0     0     644     5888      `
+/368            0           0     0     644     32520     `
+/384            0           0     0     644     19432     `
+/406            0           0     0     644     2896      `

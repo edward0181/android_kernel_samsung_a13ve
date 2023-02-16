@@ -1,0 +1,1 @@
+cmd_drivers/gpu/built-in.a :=  rm -f drivers/gpu/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/gpu/built-in.a drivers/gpu/drm/built-in.a drivers/gpu/vga/built-in.a drivers/gpu/mediatek/built-in.a

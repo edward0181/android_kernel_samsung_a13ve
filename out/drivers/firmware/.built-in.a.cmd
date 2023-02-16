@@ -1,0 +1,1 @@
+cmd_drivers/firmware/built-in.a :=  rm -f drivers/firmware/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/firmware/built-in.a drivers/firmware/psci.o drivers/firmware/broadcom/built-in.a drivers/firmware/meson/built-in.a drivers/firmware/tegra/built-in.a

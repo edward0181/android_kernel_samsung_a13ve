@@ -1,0 +1,57 @@
+!<thin>
+//                                              380       `
+dm-uevent.o/
+dm.o/
+dm-table.o/
+dm-target.o/
+dm-linear.o/
+dm-stripe.o/
+dm-ioctl.o/
+dm-io.o/
+dm-kcopyd.o/
+dm-sysfs.o/
+dm-stats.o/
+dm-rq.o/
+dm-builtin.o/
+dm-bufio.o/
+dm-crypt.o/
+dm-default-key.o/
+dm-snap.o/
+dm-exception-store.o/
+dm-snap-transient.o/
+dm-snap-persistent.o/
+dm-verity-avb.o/
+dm-verity-fec.o/
+dm-verity-target.o/
+dm-verity-debug.o/
+alta_bigdata.o/
+dm-bow.o/
+dm-user.o/
+
+/0              0           0     0     644     7832      `
+/13            /0           0     0     644     80400     `
+/19             0           0     0     644     42464     `
+/31             0           0     0     644     7800      `
+/44             0           0     0     644     4744      `
+/57             0           0     0     644     9336      `
+/70             0           0     0     644     39840     `
+/82             0           0     0     644     13768     `
+/91             0           0     0     644     21024     `
+/104            0           0     0     644     5120      `
+/116            0           0     0     644     26920     `
+/128            0           0     0     644     21448     `
+/137            0           0     0     644     2280      `
+/151            0           0     0     644     69608     `
+/163            0           0     0     644     55920     `
+/175            0           0     0     644     11440     `
+/193            0           0     0     644     51352     `
+/204            0           0     0     644     12368     `
+/226            0           0     0     644     4288      `
+/247            0           0     0     644     15072     `
+/269            0           0     0     644     9648      `
+/286            0           0     0     644     16472     `
+/303            0           0     0     644     28440     `
+/323            0           0     0     644     14712     `
+/342            0           0     0     644     10984     `
+/358            0           0     0     644     29864     `
+/368            0           0     0     644     17896     `

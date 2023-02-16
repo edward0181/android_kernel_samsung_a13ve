@@ -1,0 +1,1 @@
+cmd_drivers/regulator/s2mpb03/built-in.a :=  rm -f drivers/regulator/s2mpb03/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/regulator/s2mpb03/built-in.a drivers/regulator/s2mpb03/s2mpb03.o

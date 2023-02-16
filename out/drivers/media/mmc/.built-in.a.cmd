@@ -1,0 +1,1 @@
+cmd_drivers/media/mmc/built-in.a :=  rm -f drivers/media/mmc/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/media/mmc/built-in.a drivers/media/mmc/siano/built-in.a

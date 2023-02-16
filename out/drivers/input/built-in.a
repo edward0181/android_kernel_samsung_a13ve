@@ -1,0 +1,35 @@
+!<thin>
+//                                              262       `
+input.o/
+input-compat.o/
+input-mt.o/
+ff-core.o/
+ff-memless.o/
+input-leds.o/
+evdev.o/
+keyboard/mediatek/kpd.o/
+keyboard/mediatek/mt6768/hal_kpd.o/
+joystick/xpad.o/
+tablet/acecad.o/
+tablet/aiptek.o/
+tablet/gtco.o/
+tablet/hanwang.o/
+tablet/kbtab.o/
+misc/uinput.o/
+
+/0              0           0     0     644     89216     `
+/9              0           0     0     644     5656      `
+/25             0           0     0     644     13032     `
+/37             0           0     0     644     11112     `
+/48             0           0     0     644     15232     `
+/62             0           0     0     644     6904      `
+/76             0           0     0     644     39152     `
+/85             0           0     0     644     26872     `
+/110            0           0     0     644     14120     `
+/146            0           0     0     644     46080     `
+/163            0           0     0     644     8936      `
+/180            0           0     0     644     36672     `
+/197            0           0     0     644     27376     `
+/212            0           0     0     644     11656     `
+/230            0           0     0     644     8696      `
+/246            0           0     0     644     25792     `
