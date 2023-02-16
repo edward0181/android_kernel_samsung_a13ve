@@ -60,7 +60,7 @@ config TOUCHSCREEN_HIMAX_IC_HX83122
 
 # ***************** In-cell End *******************
 config TOUCHSCREEN_HIMAX_DEBUG
-        tristate "HIMAX debug function"
+        boolean "HIMAX debug function"
 		depends on TOUCHSCREEN_HIMAX_HX83XXX_SPI
 		default y
 		help
