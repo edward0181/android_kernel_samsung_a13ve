@@ -46,6 +46,8 @@
 #define HUB_QUIRK_CHECK_PORT_AUTOSUSPEND	0x01
 #define HUB_QUIRK_DISABLE_AUTOSUSPEND		0x02
 
+#define USB_TP_TRANSMISSION_DELAY	40	/* ns */
+#define USB_TP_TRANSMISSION_DELAY_MAX	65535	/* ns */
 extern int deny_new_usb;
 
 /* Protect struct usb_device->state and ->children members

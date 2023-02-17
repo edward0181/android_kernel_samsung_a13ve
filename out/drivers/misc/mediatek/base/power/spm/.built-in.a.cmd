@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/base/power/spm/built-in.a :=  rm -f drivers/misc/mediatek/base/power/spm/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/spm/built-in.a drivers/misc/mediatek/base/power/spm/common_v1/built-in.a drivers/misc/mediatek/base/power/spm/mt6768/built-in.a

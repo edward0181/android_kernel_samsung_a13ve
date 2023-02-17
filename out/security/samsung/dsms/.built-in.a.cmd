@@ -1,1 +1,0 @@
-cmd_security/samsung/dsms/built-in.a :=  rm -f security/samsung/dsms/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD security/samsung/dsms/built-in.a 

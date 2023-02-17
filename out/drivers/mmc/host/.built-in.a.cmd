@@ -1,1 +1,0 @@
-cmd_drivers/mmc/host/built-in.a :=  rm -f drivers/mmc/host/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/mmc/host/built-in.a drivers/mmc/host/mtk-sd.o drivers/mmc/host/mtk-sd-dbg.o drivers/mmc/host/mmc-sec-sysfs.o drivers/mmc/host/cqhci.o drivers/mmc/host/cqhci-crypto.o

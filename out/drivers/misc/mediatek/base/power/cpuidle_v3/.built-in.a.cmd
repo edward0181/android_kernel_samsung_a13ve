@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/base/power/cpuidle_v3/built-in.a :=  rm -f drivers/misc/mediatek/base/power/cpuidle_v3/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/cpuidle_v3/built-in.a drivers/misc/mediatek/base/power/cpuidle_v3/mtk_cpuidle.o

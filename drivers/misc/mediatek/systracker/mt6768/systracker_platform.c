@@ -7,7 +7,7 @@
 #include <linux/platform_device.h>
 #include <linux/interrupt.h>
 #include <linux/sched.h>
-#include <mtk_ram_console.h>
+#include <mboot_params.h>
 #include <asm/system_misc.h>
 #include <asm/traps.h>
 #include <linux/signal.h>

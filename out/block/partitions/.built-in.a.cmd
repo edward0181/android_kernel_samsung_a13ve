@@ -1,1 +1,0 @@
-cmd_block/partitions/built-in.a :=  rm -f block/partitions/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD block/partitions/built-in.a block/partitions/check.o block/partitions/msdos.o block/partitions/efi.o

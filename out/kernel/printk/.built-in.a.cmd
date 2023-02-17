@@ -1,1 +1,0 @@
-cmd_kernel/printk/built-in.a :=  rm -f kernel/printk/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD kernel/printk/built-in.a kernel/printk/printk.o kernel/printk/printk_safe.o

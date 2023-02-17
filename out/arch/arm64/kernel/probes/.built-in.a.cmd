@@ -1,1 +1,0 @@
-cmd_arch/arm64/kernel/probes/built-in.a :=  rm -f arch/arm64/kernel/probes/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD arch/arm64/kernel/probes/built-in.a arch/arm64/kernel/probes/uprobes.o arch/arm64/kernel/probes/decode-insn.o arch/arm64/kernel/probes/simulate-insn.o

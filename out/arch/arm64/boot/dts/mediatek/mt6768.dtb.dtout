@@ -1,7 +1,0 @@
-../arch/arm64/boot/dts/mediatek/mt6768.dts:4080.3-16: Warning (reg_format): /i2c7@11004000/speaker_amp@34:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
-arch/arm64/boot/dts/mediatek/mt6768.dtb: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
-arch/arm64/boot/dts/mediatek/mt6768.dtb: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
-arch/arm64/boot/dts/mediatek/mt6768.dtb: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
-../arch/arm64/boot/dts/mediatek/mt6768.dts:4077.30-4082.4: Warning (avoid_default_addr_size): /i2c7@11004000/speaker_amp@34: Relying on default #address-cells value
-../arch/arm64/boot/dts/mediatek/mt6768.dts:4077.30-4082.4: Warning (avoid_default_addr_size): /i2c7@11004000/speaker_amp@34: Relying on default #size-cells value
-../arch/arm64/boot/dts/mediatek/mt6768.dts:654.11-686.4: Warning (gpios_property): /scp_dvfs: Missing property '#gpio-cells' in node /gpio@10005000 or bad phandle (referred from gpio[0])

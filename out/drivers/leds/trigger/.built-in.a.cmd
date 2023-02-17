@@ -1,1 +1,0 @@
-cmd_drivers/leds/trigger/built-in.a :=  rm -f drivers/leds/trigger/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/leds/trigger/built-in.a drivers/leds/trigger/ledtrig-timer.o

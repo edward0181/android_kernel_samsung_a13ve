@@ -1,1 +1,0 @@
-cmd_fs/notify/built-in.a :=  rm -f fs/notify/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD fs/notify/built-in.a fs/notify/fsnotify.o fs/notify/notification.o fs/notify/group.o fs/notify/mark.o fs/notify/fdinfo.o fs/notify/dnotify/built-in.a fs/notify/inotify/built-in.a fs/notify/fanotify/built-in.a

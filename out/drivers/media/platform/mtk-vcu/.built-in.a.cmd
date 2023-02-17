@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/mtk-vcu/built-in.a :=  rm -f drivers/media/platform/mtk-vcu/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/media/platform/mtk-vcu/built-in.a drivers/media/platform/mtk-vcu/mtk_vcu.o drivers/media/platform/mtk-vcu/mtk_vcodec_mem.o

@@ -1,1 +1,0 @@
-cmd_net/802/built-in.a :=  rm -f net/802/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD net/802/built-in.a net/802/p8022.o net/802/psnap.o net/802/stp.o

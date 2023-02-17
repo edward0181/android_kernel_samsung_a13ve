@@ -1,1 +1,0 @@
-cmd_drivers/nfc/built-in.a :=  rm -f drivers/nfc/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/nfc/built-in.a drivers/nfc/pn547.o drivers/nfc/cold_reset.o drivers/nfc/nfc_logger/nfc_logger.o

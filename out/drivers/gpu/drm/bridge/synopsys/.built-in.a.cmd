@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/bridge/synopsys/built-in.a :=  rm -f drivers/gpu/drm/bridge/synopsys/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/gpu/drm/bridge/synopsys/built-in.a 

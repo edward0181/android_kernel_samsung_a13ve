@@ -1,1 +1,0 @@
-cmd_net/unix/built-in.a :=  rm -f net/unix/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD net/unix/built-in.a net/unix/af_unix.o net/unix/garbage.o net/unix/sysctl_net_unix.o net/unix/scm.o

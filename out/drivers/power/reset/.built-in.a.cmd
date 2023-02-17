@@ -1,1 +1,0 @@
-cmd_drivers/power/reset/built-in.a :=  rm -f drivers/power/reset/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/power/reset/built-in.a drivers/power/reset/reboot-mode.o drivers/power/reset/syscon-reboot-mode.o

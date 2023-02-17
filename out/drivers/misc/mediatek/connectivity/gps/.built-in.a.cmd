@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/connectivity/gps/built-in.a :=  rm -f drivers/misc/mediatek/connectivity/gps/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/misc/mediatek/connectivity/gps/built-in.a drivers/misc/mediatek/connectivity/gps/stp_chrdev_gps.o drivers/misc/mediatek/connectivity/gps/fw_log_gps.o

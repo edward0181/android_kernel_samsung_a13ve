@@ -1,1 +1,0 @@
-cmd_net/l2tp/built-in.a :=  rm -f net/l2tp/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD net/l2tp/built-in.a net/l2tp/l2tp_core.o net/l2tp/l2tp_ppp.o

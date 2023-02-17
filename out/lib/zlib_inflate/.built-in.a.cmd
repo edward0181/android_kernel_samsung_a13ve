@@ -1,1 +1,0 @@
-cmd_lib/zlib_inflate/built-in.a :=  rm -f lib/zlib_inflate/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD lib/zlib_inflate/built-in.a lib/zlib_inflate/inffast.o lib/zlib_inflate/inflate.o lib/zlib_inflate/infutil.o lib/zlib_inflate/inftrees.o lib/zlib_inflate/inflate_syms.o

@@ -1,1 +1,0 @@
-cmd_drivers/mailbox/built-in.a :=  rm -f drivers/mailbox/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/mailbox/built-in.a drivers/mailbox/mailbox.o drivers/mailbox/mtk-cmdq-mailbox.o

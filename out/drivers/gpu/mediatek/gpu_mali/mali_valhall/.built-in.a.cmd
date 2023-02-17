@@ -1,1 +1,0 @@
-cmd_drivers/gpu/mediatek/gpu_mali/mali_valhall/built-in.a :=  rm -f drivers/gpu/mediatek/gpu_mali/mali_valhall/built-in.a; /home/edward/lineage/kernel/samsung/a13ve/gcc/bin/aarch64-buildroot-linux-gnu-ar rcSTPD drivers/gpu/mediatek/gpu_mali/mali_valhall/built-in.a drivers/gpu/mediatek/gpu_mali/mali_valhall/mali-r32p1/drivers/gpu/arm/midgard/built-in.a
